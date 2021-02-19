@@ -30,6 +30,9 @@ This website has two navigatible pages.  The home page is just for simplicity wi
 - As a user I wanted this game to be fun whilst travelling or if you simply have 5 minutes to kill wherever you are.
 - I wanted the user to be able to browse this site on any device.
 
+##  Bugs
+-  Jinja showed me what line I went wrong on just to simply test if my site would load, spotted and changed
+
 
 # **Features**
 
@@ -83,6 +86,9 @@ The Surface of my website was to obtain and eye catching feeling, I feel I obtai
 - [Font Awesome](https://fontawesome.com/) I used font awesome for the icons
 - [Google Fonts](https://fonts.google.com/specimen/Indie+Flower?sidebar.open=true&selection.family=Indie+Flower) - I used Google fonts for my fonts and I used "Indie-Flower" throughout the entire page as I think it works well with the site and fits the theme of the Turtles
 - [W3Validator](https://validator.w3.org/nu/#textarea) - I used this to test my HTML and CSS
+-  Materilize
+-  Jquery
+
 
 # **Testing**
 
