@@ -18,12 +18,10 @@ mongo = PyMongo(app)
 
 
 @app.route("/")
-@app.route("/get_users")
-def get_users():
-    users = mongo.db.users.find()
-    return render_template("base.html", users=users)
-
-
+@app.route("/get_categories")
+def get_categories():
+    categories = mongo.db.categories.find()
+    return render_template("tasks.html", categories=categories)
 
 
 if __name__ == "__main__":
