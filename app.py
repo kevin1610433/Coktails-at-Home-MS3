@@ -11,10 +11,10 @@ app = Flask(__name__)
 
 
 @app.route("/")
-@app.route("/get_tasks")
-def get_tasks():
-    tasks = mongo.db.tasks.find()
-    return render_template("tasks.html", tasks=tasks)
+@app.route("/get_cocktails")
+def get_cocktails():
+    cocktails = mongo.db.cocktails.find()
+    return render_template("cocktails.html", cocktails=cocktails)
 
 @app.route("/")
 def cocktails():
